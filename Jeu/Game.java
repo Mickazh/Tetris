@@ -4,7 +4,7 @@ public class Game implements Runnable{
     private GameWindow gameWindow;
     private GamePanel gamePanel;
     private Thread gameThread;
-    private final int FPS_SET= 24 // pas besoin de beaucoup de FPS pour un tetris
+    private final int FPS_SET= 24; // pas besoin de beaucoup de FPS pour un tetris
     private final double UPS_SET = 2.0; // UPS = update par seconde
 
     public Game(){
